@@ -1,0 +1,178 @@
+*,
+*:before,
+*:after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #6785FD;
+  overflow: hidden;
+}
+#section1 {
+  width: 400px;
+  height: 600px;
+  /*background-image: url("http://placeholder.it/400/600/");*/
+  background-image:url("Images/profile-image2.jpg");
+  background-color: #000;
+  padding: 10px 10px;
+  margin: 40px 20px 0px 320px;
+  box-shadow: 0px 30px 25px -6px #585858;
+  color: #fff;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+.top > ul {
+  list-style: none;
+  overflow: hidden;
+  position: relative;
+  height: 30px;
+
+}
+
+.top li {
+  position: absolute;
+  height: 30px;
+  top: 10px;
+}
+
+.top li > a {
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+
+.top li:first-child {
+  /*top: 0;*/
+  left: 0;
+}
+
+.top li:nth-child(2) {
+  /*top: 0;*/
+  left: 161px;
+}
+
+.top li:last-child {
+  /*top: 0;*/
+  right: 0;
+}
+
+.bottom{
+  /*display: inline-block;*/
+  position: relative;
+}
+.bottom>h2{
+  padding: 400px 20px 5px 20px;
+}
+.bottom > p {
+  padding: 5px 20px 10px 20px;
+}
+.icon-right {
+  font-size: 32px;
+  position: absolute;
+  right: 150px;
+  bottom: 46px;
+}
+#section2 {
+
+  width: 400px;
+  height: 600px;
+  background-color: #fff;
+  /*padding: 20px;*/
+  margin: 40px 320px 0 20px;
+  box-shadow: 0px 30px 25px -6px #585858;
+  float: right;
+}
+.info {
+  padding: 15px;
+  position: relative;
+  border-bottom: 1px solid black;
+}
+.gender-icon {
+  font-size: 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.profile-image > img{
+  /*display: block;
+  margin: 15px;*/
+  padding: 15px;
+  border-radius: 50%;
+}
+.info > h2,h3,p {
+  padding: 10px 15px;
+}
+.info > h2{
+
+  font-size: 32px;
+  color: #6785FD;
+}
+.info > p{
+  color: #A3A0A0;
+}
+.users {
+  margin: 10px;
+}
+.users > ul {
+  list-style: none;
+  padding: 15px 30px;
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+.users  li>a {
+  text-decoration: none;
+  color: black;
+}
+.followers  {
+  float: left;
+  overflow: hidden;
+}
+
+/*.following {
+  float: left;
+}*/
+.followers > li:first-child,
+.following > li:first-child {
+  /*color: #606061;*/
+  font-size: 32px;
+  font-weight: bold;
+}
+.followers li >a {
+
+}
+.followers > li:last-child,
+.following > li:last-child {
+  font-size: 16px;
+
+  opacity: 0.6;
+  /*color: #A3A0A0;*/
+  /*color: #A3A0A0 ;*/
+}
+.button {
+  clear: both;
+
+  /*height: 15px;*/
+  background-color: #6785FD;
+  /*width: 300px;
+  height: 50px;*/
+
+  margin: 0 auto;
+  padding: 10px 0;
+  text-align: center;
+
+  /*color: white;*/
+  /*background-color: blue;*/
+}
+.button > a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+
+/*.following,
+.followers > li :first-child {
+  font-size: 32px;
+}*/
